@@ -1,0 +1,889 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0201EBF61F46532A4BED6CF0D630232C /* Pods-SyncCDwBkndlss-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 461E910327C59847B3E27A24108E0555 /* Pods-SyncCDwBkndlss-dummy.m */; };
+		0568BAB93B3B7011E1B3F0FDF957D090 /* DATASourceCollectionHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA5F00DFB6BA613B10849DCEBDE6E2D /* DATASourceCollectionHeaderView.swift */; };
+		22DF4D7534C2C7A157A4556E6CD57AD2 /* DATASource.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC81540ADA923B261C17DD5FB3C22748 /* DATASource.swift */; };
+		24997E72D7C928C18B45BF88E1B512EA /* TestCheck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 154FB5D46FEC402A1371BF6F5C9035EF /* TestCheck.swift */; };
+		3373B7C30B4B7E17707A07989CEB7BF2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CD4D643B730FFB028165AE73757FE71 /* Foundation.framework */; };
+		4171762667553902C9B5943A883B77EE /* DATAStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83CBDF6091427D9910B6EAD46CC8DF26 /* DATAStack.swift */; };
+		44EEF3022CC34E19325A9FED0EC5D92A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CD4D643B730FFB028165AE73757FE71 /* Foundation.framework */; };
+		490820275A8A272BDF3B9EBE7E829B4A /* Pods-SyncCDwBkndlss-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B921C8786763056AA13A06D4D58E472 /* Pods-SyncCDwBkndlss-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5046C651F2087C5809DD5AACA688E603 /* DATASource-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AF73BA4F2C22DDEF02758C72490D20F /* DATASource-dummy.m */; };
+		52E31E6954A22FE5705E14C660104F8F /* DATASource+UITableViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F6751629593C54C35631F38FB9E520A /* DATASource+UITableViewDataSource.swift */; };
+		55A5310E68EAC117011BA99DE0BB49DE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CD4D643B730FFB028165AE73757FE71 /* Foundation.framework */; };
+		6D116F1C315E170A126FB2514D2BFA80 /* DATASource-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FF30F07F116BD429F93381741DE8897C /* DATASource-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		964C6FD70B5BA1ACEC056E8F689AFF76 /* DATAStack-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 02413408C9B265F6332125E30A40628A /* DATAStack-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		98937CE8807F72EAEBC2C986C17F19B9 /* DATAStack.h in Headers */ = {isa = PBXBuildFile; fileRef = 944183FAEF6639D0E9D9FC575B937622 /* DATAStack.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9BA2DA742AE1F1A325E11683D227565F /* DATAStack-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 313630B33923A2C296C1FACD63E96419 /* DATAStack-dummy.m */; };
+		A09D6A0D905566E5E9647FC61FD890A2 /* DATASource+UICollectionViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = A900CE7D409B87F493F79D09237DBBEC /* DATASource+UICollectionViewDataSource.swift */; };
+		AED7272374FE685FF8201BE61E32ADBB /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BAC072F3EB5C52D961E62A2E88BADEC /* CoreData.framework */; };
+		AF0E8D01D1AFBD9EF7292D89373BC727 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 719CEB65604DB1673C35C8807F94BDF9 /* UIKit.framework */; };
+		D1B9CE2D86D2DEB3A60DC865313CB491 /* DATASource.h in Headers */ = {isa = PBXBuildFile; fileRef = A6E4B811BBEA80C3F1AC65D871959A87 /* DATASource.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ED0A864E070F7E3DAE667DD5803674D2 /* DATASource+NSFetchedResultsControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C785FFECC5733E01AFF57CD5234D02B /* DATASource+NSFetchedResultsControllerDelegate.swift */; };
+		FD1B5D4197A261F2E74547CB235D10E1 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BAC072F3EB5C52D961E62A2E88BADEC /* CoreData.framework */; };
+		FEA30546C1F3AB7CEA2C70181B4E44E0 /* DATASourceDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DEED677CF82B8D0BBD72B8323A406DA /* DATASourceDelegate.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		35729AB64B7537DABAB538E1775D9370 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 76967967EA49988882CA485460739467;
+			remoteInfo = DATAStack;
+		};
+		CA15D021DB2A31E1B11216F1A6324787 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 33B5B8E319DAC98B6B0A4E2E80A67C55;
+			remoteInfo = DATASource;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0018889A09C76D3501D36BC9F2543820 /* PersistenceService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PersistenceService.h; path = SDK/ios/backendless/include/PersistenceService.h; sourceTree = "<group>"; };
+		02413408C9B265F6332125E30A40628A /* DATAStack-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DATAStack-umbrella.h"; sourceTree = "<group>"; };
+		025C4C4EB4F1D4DA32A8114A4C417381 /* IRTMProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IRTMProtocol.h; path = SDK/ios/CommLibiOS/include/IRTMProtocol.h; sourceTree = "<group>"; };
+		03C9EDF8B35DA3CB43EDE8297BE4F4AB /* Pods-SyncCDwBkndlss.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SyncCDwBkndlss.modulemap"; sourceTree = "<group>"; };
+		05F126CA16A09828D0679775B79639B7 /* MemoryTicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MemoryTicker.h; path = SDK/ios/CommLibiOS/include/MemoryTicker.h; sourceTree = "<group>"; };
+		0AE7111C96089F6F9FBABB94DC8AD919 /* Message.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Message.h; path = SDK/ios/backendless/include/Message.h; sourceTree = "<group>"; };
+		0B921C8786763056AA13A06D4D58E472 /* Pods-SyncCDwBkndlss-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SyncCDwBkndlss-umbrella.h"; sourceTree = "<group>"; };
+		0EEC90E27423F131FD33A13054BEE28F /* DATASource.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = DATASource.modulemap; sourceTree = "<group>"; };
+		0F0D23387A51DFF5E957B905B2CD019C /* DeviceRegistration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DeviceRegistration.h; path = SDK/ios/backendless/include/DeviceRegistration.h; sourceTree = "<group>"; };
+		101A77232B3C4F0C55EE18B6FD4AF218 /* FlashorbBinaryWriter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlashorbBinaryWriter.h; path = SDK/ios/CommLibiOS/include/FlashorbBinaryWriter.h; sourceTree = "<group>"; };
+		154FB5D46FEC402A1371BF6F5C9035EF /* TestCheck.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TestCheck.swift; path = Source/TestCheck.swift; sourceTree = "<group>"; };
+		19BFEFDA4D9178373765C888AF09A629 /* BinaryCodec.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BinaryCodec.h; path = SDK/ios/CommLibiOS/include/BinaryCodec.h; sourceTree = "<group>"; };
+		1E86BAB21FEB1DFB948C5A78E2736D88 /* IPresenceListener.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IPresenceListener.h; path = SDK/ios/backendless/include/IPresenceListener.h; sourceTree = "<group>"; };
+		1FCB697E636D5080D6F70EEF4BCFB824 /* BackendlessCollection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BackendlessCollection.h; path = SDK/ios/backendless/include/BackendlessCollection.h; sourceTree = "<group>"; };
+		21F8A6E9AE25C544C0916546587C349F /* AMFSerializer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMFSerializer.h; path = SDK/ios/CommLibiOS/include/AMFSerializer.h; sourceTree = "<group>"; };
+		2222BE2FA80A2E8B4A5CC359EF36203B /* IClientSharedObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IClientSharedObject.h; path = SDK/ios/CommLibiOS/include/IClientSharedObject.h; sourceTree = "<group>"; };
+		266DB694489515B4D08CD083922CB74C /* GeoPoint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GeoPoint.h; path = SDK/ios/backendless/include/GeoPoint.h; sourceTree = "<group>"; };
+		2D0EEE0627A7B85C3981B0B3B8F2456B /* FlashorbBinaryReader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlashorbBinaryReader.h; path = SDK/ios/CommLibiOS/include/FlashorbBinaryReader.h; sourceTree = "<group>"; };
+		2D6AEE0A17FE815DDC7C5124ADDE53B3 /* Pods-SyncCDwBkndlss-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SyncCDwBkndlss-frameworks.sh"; sourceTree = "<group>"; };
+		313630B33923A2C296C1FACD63E96419 /* DATAStack-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DATAStack-dummy.m"; sourceTree = "<group>"; };
+		32A4BBF2A69761CAA439118D65677253 /* BackendlessDataQuery.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BackendlessDataQuery.h; path = SDK/ios/backendless/include/BackendlessDataQuery.h; sourceTree = "<group>"; };
+		3497AADDF2D1C501F9668C163CFF8B84 /* Types.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Types.h; path = SDK/ios/CommLibiOS/include/Types.h; sourceTree = "<group>"; };
+		38F1A689F00B822D4BB9CE55B85E4FB6 /* DATAStack.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = DATAStack.modulemap; sourceTree = "<group>"; };
+		3D571A8329D63E3F8991D73CA48E7D5D /* MessageStatus.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MessageStatus.h; path = SDK/ios/backendless/include/MessageStatus.h; sourceTree = "<group>"; };
+		3D822C4DB630B0F659DA1E9DF4FBC059 /* DataPermission.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DataPermission.h; path = SDK/ios/backendless/include/DataPermission.h; sourceTree = "<group>"; };
+		3DE8AE6F3022B3F9617331B570ACB0B3 /* UserService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UserService.h; path = SDK/ios/backendless/include/UserService.h; sourceTree = "<group>"; };
+		3FA1081911417CBC083B8B4A1529F2EF /* IDataStore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IDataStore.h; path = SDK/ios/backendless/include/IDataStore.h; sourceTree = "<group>"; };
+		42004EE2D08468D866066BEC36F1A208 /* BackendlessUser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BackendlessUser.h; path = SDK/ios/backendless/include/BackendlessUser.h; sourceTree = "<group>"; };
+		425B101CACCF8D9A19067E456EC7FC96 /* DataStoreFactory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DataStoreFactory.h; path = SDK/ios/backendless/include/DataStoreFactory.h; sourceTree = "<group>"; };
+		444221FB66D56F85E8E7C3DCA619A6F0 /* UserProperty.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UserProperty.h; path = SDK/ios/backendless/include/UserProperty.h; sourceTree = "<group>"; };
+		453F7FCA9402B63B66E92349B5B79857 /* DATASource-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DATASource-prefix.pch"; sourceTree = "<group>"; };
+		4552ECFBC6ACAECB61066E6CEADC6082 /* GeoCategory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GeoCategory.h; path = SDK/ios/backendless/include/GeoCategory.h; sourceTree = "<group>"; };
+		461E910327C59847B3E27A24108E0555 /* Pods-SyncCDwBkndlss-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SyncCDwBkndlss-dummy.m"; sourceTree = "<group>"; };
+		478C052722C0FDAD602429EE0C75FA92 /* DATAStack.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DATAStack.xcconfig; sourceTree = "<group>"; };
+		4FD19DDFDBA24E7D4FF11ECD4169A2F8 /* MessagingService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MessagingService.h; path = SDK/ios/backendless/include/MessagingService.h; sourceTree = "<group>"; };
+		51AA62AF71EAC04056E315CD76A4389D /* CacheFactory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CacheFactory.h; path = SDK/ios/backendless/include/CacheFactory.h; sourceTree = "<group>"; };
+		51F433C281980191307EC168F6F4DC29 /* WeborbClient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WeborbClient.h; path = SDK/ios/CommLibiOS/include/WeborbClient.h; sourceTree = "<group>"; };
+		539BE4F30ADE16D67B32ACD550448A8D /* CustomService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CustomService.h; path = SDK/ios/backendless/include/CustomService.h; sourceTree = "<group>"; };
+		5457A98EC9D5734A100B86FE4E9ABD4A /* BinaryStream.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BinaryStream.h; path = SDK/ios/CommLibiOS/include/BinaryStream.h; sourceTree = "<group>"; };
+		5523FC05A72B830C33BB0948EA21B805 /* BESubscription.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BESubscription.h; path = SDK/ios/backendless/include/BESubscription.h; sourceTree = "<group>"; };
+		5969866C2EBF4AE1427861FF7DB08577 /* IClientSharedObjectDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IClientSharedObjectDelegate.h; path = SDK/ios/CommLibiOS/include/IClientSharedObjectDelegate.h; sourceTree = "<group>"; };
+		59E93C65C94F17209E13F9C8B514AECB /* BodyParts.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BodyParts.h; path = SDK/ios/backendless/include/BodyParts.h; sourceTree = "<group>"; };
+		5AF73BA4F2C22DDEF02758C72490D20F /* DATASource-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DATASource-dummy.m"; sourceTree = "<group>"; };
+		5BDEF7F90F04C714376E21CE86D78311 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5CD4D643B730FFB028165AE73757FE71 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		5DEED677CF82B8D0BBD72B8323A406DA /* DATASourceDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DATASourceDelegate.swift; path = Source/DATASourceDelegate.swift; sourceTree = "<group>"; };
+		5DF02EB49EF9B2D1178D16F6406D49AB /* Pods-SyncCDwBkndlss.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SyncCDwBkndlss.release.xcconfig"; sourceTree = "<group>"; };
+		5F6751629593C54C35631F38FB9E520A /* DATASource+UITableViewDataSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DATASource+UITableViewDataSource.swift"; path = "Source/DATASource+UITableViewDataSource.swift"; sourceTree = "<group>"; };
+		627F44BE1188F9677B74578E2559192E /* BackendlessEntity.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BackendlessEntity.h; path = SDK/ios/backendless/include/BackendlessEntity.h; sourceTree = "<group>"; };
+		647C603DC04F9D5DFB874CBD3AF6DE04 /* BackendlessCachePolicy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BackendlessCachePolicy.h; path = SDK/ios/backendless/include/BackendlessCachePolicy.h; sourceTree = "<group>"; };
+		660A561E87328B94A298C79D7A8A4BD9 /* ObjectProperty.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ObjectProperty.h; path = SDK/ios/backendless/include/ObjectProperty.h; sourceTree = "<group>"; };
+		690C81871BB2AEE9C01F7B859D98FDF3 /* GeoService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GeoService.h; path = SDK/ios/backendless/include/GeoService.h; sourceTree = "<group>"; };
+		6FE9E746D6296BE6632C867037FB93AE /* DEBUG.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DEBUG.h; path = SDK/ios/CommLibiOS/include/DEBUG.h; sourceTree = "<group>"; };
+		719CEB65604DB1673C35C8807F94BDF9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		73FF2C887115A8B6306BB956D1D16437 /* ICacheService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ICacheService.h; path = SDK/ios/backendless/include/ICacheService.h; sourceTree = "<group>"; };
+		740CF8E15E2EC49C8DD21F00F316E4C6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76108434E58BDF8011552833EAB78E4D /* IPersistable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IPersistable.h; path = SDK/ios/CommLibiOS/include/IPersistable.h; sourceTree = "<group>"; };
+		777741D9D206175BE94EC6807B860B8F /* BECollectionView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BECollectionView.h; path = SDK/ios/backendless/include/BECollectionView.h; sourceTree = "<group>"; };
+		7951F2E2772B29BFF6F1167E6A0C4A7A /* GeoFence.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GeoFence.h; path = SDK/ios/backendless/include/GeoFence.h; sourceTree = "<group>"; };
+		7D1211686CF0A44811A3DF3006DDE583 /* BackendlessBeacon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BackendlessBeacon.h; path = SDK/ios/backendless/include/BackendlessBeacon.h; sourceTree = "<group>"; };
+		8131F8C63B2752AC59A09B86D681EE9F /* PublishOptions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PublishOptions.h; path = SDK/ios/backendless/include/PublishOptions.h; sourceTree = "<group>"; };
+		824D82AB47F553C4AAA465441F36968B /* DATASource.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DATASource.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		83CBDF6091427D9910B6EAD46CC8DF26 /* DATAStack.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DATAStack.swift; path = Source/DATAStack.swift; sourceTree = "<group>"; };
+		848BD62B3162D84EBFAC5BDE60414669 /* LocationTracker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LocationTracker.h; path = SDK/ios/backendless/include/LocationTracker.h; sourceTree = "<group>"; };
+		85C42BF55375D7105DFC4B091FC79D6A /* Backendless-With-Media-Bridging-Header.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Backendless-With-Media-Bridging-Header.h"; path = "SDK/ios/backendless/include/Backendless-With-Media-Bridging-Header.h"; sourceTree = "<group>"; };
+		88A75A9836E2DBA46F5EF94439BA3CBE /* Pods-SyncCDwBkndlss-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SyncCDwBkndlss-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8B981816544A7BCF9C927FB1816908E5 /* IPendingServiceCallback.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IPendingServiceCallback.h; path = SDK/ios/CommLibiOS/include/IPendingServiceCallback.h; sourceTree = "<group>"; };
+		8BAC072F3EB5C52D961E62A2E88BADEC /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/CoreData.framework; sourceTree = DEVELOPER_DIR; };
+		8CCACB9CF0CA0583A05FCC49CA2764EF /* QueryOptions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QueryOptions.h; path = SDK/ios/backendless/include/QueryOptions.h; sourceTree = "<group>"; };
+		8D15C1ADC106DDD97F48131995C106BB /* IAttributeStore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IAttributeStore.h; path = SDK/ios/CommLibiOS/include/IAttributeStore.h; sourceTree = "<group>"; };
+		8D1A948D728AFC1314F03572C74532D5 /* FileService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FileService.h; path = SDK/ios/backendless/include/FileService.h; sourceTree = "<group>"; };
+		8E51C27B2662C3C14EE90CBF8D98D337 /* Pods-SyncCDwBkndlss-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SyncCDwBkndlss-acknowledgements.plist"; sourceTree = "<group>"; };
+		92EFA1B8AF53D77674F475EB698D5839 /* SubscriptionOptions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SubscriptionOptions.h; path = SDK/ios/backendless/include/SubscriptionOptions.h; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; };
+		944183FAEF6639D0E9D9FC575B937622 /* DATAStack.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DATAStack.h; path = Source/DATAStack.h; sourceTree = "<group>"; };
+		95E21D765FD9B5B1D483624C56C95762 /* BEMapView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BEMapView.h; path = SDK/ios/backendless/include/BEMapView.h; sourceTree = "<group>"; };
+		96035B2BB9AFF23C3926CF0327B1815D /* IAtomicCounters.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IAtomicCounters.h; path = SDK/ios/backendless/include/IAtomicCounters.h; sourceTree = "<group>"; };
+		9B1EB4EBD7937F80043ACF4C62668DAC /* ICallback.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ICallback.h; path = SDK/ios/backendless/include/ICallback.h; sourceTree = "<group>"; };
+		9BA5F00DFB6BA613B10849DCEBDE6E2D /* DATASourceCollectionHeaderView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DATASourceCollectionHeaderView.swift; path = Source/DATASourceCollectionHeaderView.swift; sourceTree = "<group>"; };
+		9C785FFECC5733E01AFF57CD5234D02B /* DATASource+NSFetchedResultsControllerDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DATASource+NSFetchedResultsControllerDelegate.swift"; path = "Source/DATASource+NSFetchedResultsControllerDelegate.swift"; sourceTree = "<group>"; };
+		9EA1FC61A3CFAFBC19C58AC8C0C9ABDD /* AbstractProperty.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AbstractProperty.h; path = SDK/ios/backendless/include/AbstractProperty.h; sourceTree = "<group>"; };
+		A2CFEBE7A81C596B2A4F7EF720FA8B12 /* Logger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Logger.h; path = SDK/ios/backendless/include/Logger.h; sourceTree = "<group>"; };
+		A3CF824F123965FC7F1F956163A4E13A /* BEAnnotation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BEAnnotation.h; path = SDK/ios/backendless/include/BEAnnotation.h; sourceTree = "<group>"; };
+		A4B82FA89C255506C497140DDEA04C9C /* ProtectedBackendlessGeoQuery.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ProtectedBackendlessGeoQuery.h; path = SDK/ios/backendless/include/ProtectedBackendlessGeoQuery.h; sourceTree = "<group>"; };
+		A6E4B811BBEA80C3F1AC65D871959A87 /* DATASource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DATASource.h; path = Source/DATASource.h; sourceTree = "<group>"; };
+		A6E9C02EBF0579D5E3C015A519A81E6E /* Pods-SyncCDwBkndlss-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SyncCDwBkndlss-resources.sh"; sourceTree = "<group>"; };
+		A900CE7D409B87F493F79D09237DBBEC /* DATASource+UICollectionViewDataSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DATASource+UICollectionViewDataSource.swift"; path = "Source/DATASource+UICollectionViewDataSource.swift"; sourceTree = "<group>"; };
+		A99542D0B567791D159877E07B219526 /* BETableView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BETableView.h; path = SDK/ios/backendless/include/BETableView.h; sourceTree = "<group>"; };
+		ABB1393786AD5F2DAF1246B4E6B959A9 /* DATAStack-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DATAStack-prefix.pch"; sourceTree = "<group>"; };
+		AC81540ADA923B261C17DD5FB3C22748 /* DATASource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DATASource.swift; path = Source/DATASource.swift; sourceTree = "<group>"; };
+		ADEB4BA9B5C205D386099FFE04A53AC6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B1F1625EACD56988F56754494A2723D3 /* RTMPClient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTMPClient.h; path = SDK/ios/CommLibiOS/include/RTMPClient.h; sourceTree = "<group>"; };
+		B8A5B527C1E4D8FF5DC9AF5F67B19CA5 /* Backendless.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Backendless.h; path = SDK/ios/backendless/include/Backendless.h; sourceTree = "<group>"; };
+		B9343F5490BDB3155F5A470A6FE71289 /* IServiceCall.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IServiceCall.h; path = SDK/ios/CommLibiOS/include/IServiceCall.h; sourceTree = "<group>"; };
+		BA8BBFC21434AFD2CC2884729DCFCA6A /* Logging.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Logging.h; path = SDK/ios/backendless/include/Logging.h; sourceTree = "<group>"; };
+		C15AEA2030C623706BD19E7B563536EA /* Presence.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Presence.h; path = SDK/ios/backendless/include/Presence.h; sourceTree = "<group>"; };
+		C1661CCFD30F906BAF31C121DF59F1B9 /* Backendless-Bridging-Header.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Backendless-Bridging-Header.h"; path = "SDK/ios/backendless/include/Backendless-Bridging-Header.h"; sourceTree = "<group>"; };
+		C4B74C32E5B0A975D45F61D6EC3F0631 /* Pods-SyncCDwBkndlss.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SyncCDwBkndlss.debug.xcconfig"; sourceTree = "<group>"; };
+		C5A506211FE21D14EEE94465B349D5A1 /* BEFileInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BEFileInfo.h; path = SDK/ios/backendless/include/BEFileInfo.h; sourceTree = "<group>"; };
+		C8FF3571C6DD2B59E8258C42440F92AD /* Events.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Events.h; path = SDK/ios/backendless/include/Events.h; sourceTree = "<group>"; };
+		CDE51723C1490E5693052C9BBDEA0F4D /* CacheService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CacheService.h; path = SDK/ios/backendless/include/CacheService.h; sourceTree = "<group>"; };
+		D0A27D7B3BE1D7663699A4A2A47DBC1C /* AtomicCounters.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AtomicCounters.h; path = SDK/ios/backendless/include/AtomicCounters.h; sourceTree = "<group>"; };
+		D5375B2552FD2606CD781C153F29A400 /* ISharedObjectListener.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISharedObjectListener.h; path = SDK/ios/CommLibiOS/include/ISharedObjectListener.h; sourceTree = "<group>"; };
+		D5C0B1AE474C74A753C92928894256CA /* AtomicCountersFactory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AtomicCountersFactory.h; path = SDK/ios/backendless/include/AtomicCountersFactory.h; sourceTree = "<group>"; };
+		D9F826DAA1FA83E4AE5E333BF0F64D07 /* HashMap.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HashMap.h; path = SDK/ios/backendless/include/HashMap.h; sourceTree = "<group>"; };
+		DB45B716436F0A574E004A9C46083ADF /* BackendlessSimpleQuery.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BackendlessSimpleQuery.h; path = SDK/ios/backendless/include/BackendlessSimpleQuery.h; sourceTree = "<group>"; };
+		DF1DE80EE80D44FE7DA119797F69E8A1 /* AbstractQuery.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AbstractQuery.h; path = SDK/ios/backendless/include/AbstractQuery.h; sourceTree = "<group>"; };
+		E748071264B9B0DF7EDD1F689828899B /* GeoCluster.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GeoCluster.h; path = SDK/ios/backendless/include/GeoCluster.h; sourceTree = "<group>"; };
+		EE7DC9F6196A89157628D028714FD345 /* BackendlessFile.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BackendlessFile.h; path = SDK/ios/backendless/include/BackendlessFile.h; sourceTree = "<group>"; };
+		F2CAE9B0D91848DB98C8F6F5B0D0C58B /* BackendlessGeoQuery.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BackendlessGeoQuery.h; path = SDK/ios/backendless/include/BackendlessGeoQuery.h; sourceTree = "<group>"; };
+		F5B4A4BB113E6C956C2C5F974CD8F48A /* DeliveryOptions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DeliveryOptions.h; path = SDK/ios/backendless/include/DeliveryOptions.h; sourceTree = "<group>"; };
+		F7819E47A9C3C1AE8736C15C82B90754 /* Responder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Responder.h; path = SDK/ios/CommLibiOS/include/Responder.h; sourceTree = "<group>"; };
+		F9F04397FB9A2A51F6DFC91B68AED97E /* BackendlessCacheProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BackendlessCacheProtocol.h; path = SDK/ios/backendless/include/BackendlessCacheProtocol.h; sourceTree = "<group>"; };
+		FA37922A4EC0AC175BE1ADDB33A0DB8D /* FilePermission.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FilePermission.h; path = SDK/ios/backendless/include/FilePermission.h; sourceTree = "<group>"; };
+		FD57594902EA7707E3EF2A0EB6B515CD /* DATAStack.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DATAStack.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE016D532DAD5F5C1CA30F38817EAF53 /* DATASource.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DATASource.xcconfig; sourceTree = "<group>"; };
+		FF301360DC9F81FA87D11D249183863B /* Pods_SyncCDwBkndlss.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SyncCDwBkndlss.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF30F07F116BD429F93381741DE8897C /* DATASource-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DATASource-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4DCC4B683A4775F1A934E9248A177937 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD1B5D4197A261F2E74547CB235D10E1 /* CoreData.framework in Frameworks */,
+				55A5310E68EAC117011BA99DE0BB49DE /* Foundation.framework in Frameworks */,
+				AF0E8D01D1AFBD9EF7292D89373BC727 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68D5164E7A24349F6A3FA13F74B700A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AED7272374FE685FF8201BE61E32ADBB /* CoreData.framework in Frameworks */,
+				44EEF3022CC34E19325A9FED0EC5D92A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDB7FF13D75F2AE98FE7AB0444E33857 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3373B7C30B4B7E17707A07989CEB7BF2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F87A15DBD4FEE7980DA6A2F1ED3D7938 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		65D7DA49C6375996EE98BC1A07C6E967 /* Pods-SyncCDwBkndlss */ = {
+			isa = PBXGroup;
+			children = (
+				ADEB4BA9B5C205D386099FFE04A53AC6 /* Info.plist */,
+				03C9EDF8B35DA3CB43EDE8297BE4F4AB /* Pods-SyncCDwBkndlss.modulemap */,
+				88A75A9836E2DBA46F5EF94439BA3CBE /* Pods-SyncCDwBkndlss-acknowledgements.markdown */,
+				8E51C27B2662C3C14EE90CBF8D98D337 /* Pods-SyncCDwBkndlss-acknowledgements.plist */,
+				461E910327C59847B3E27A24108E0555 /* Pods-SyncCDwBkndlss-dummy.m */,
+				2D6AEE0A17FE815DDC7C5124ADDE53B3 /* Pods-SyncCDwBkndlss-frameworks.sh */,
+				A6E9C02EBF0579D5E3C015A519A81E6E /* Pods-SyncCDwBkndlss-resources.sh */,
+				0B921C8786763056AA13A06D4D58E472 /* Pods-SyncCDwBkndlss-umbrella.h */,
+				C4B74C32E5B0A975D45F61D6EC3F0631 /* Pods-SyncCDwBkndlss.debug.xcconfig */,
+				5DF02EB49EF9B2D1178D16F6406D49AB /* Pods-SyncCDwBkndlss.release.xcconfig */,
+			);
+			name = "Pods-SyncCDwBkndlss";
+			path = "Target Support Files/Pods-SyncCDwBkndlss";
+			sourceTree = "<group>";
+		};
+		741B64B593A478A928A24A6BF87C90DD /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				38F1A689F00B822D4BB9CE55B85E4FB6 /* DATAStack.modulemap */,
+				478C052722C0FDAD602429EE0C75FA92 /* DATAStack.xcconfig */,
+				313630B33923A2C296C1FACD63E96419 /* DATAStack-dummy.m */,
+				ABB1393786AD5F2DAF1246B4E6B959A9 /* DATAStack-prefix.pch */,
+				02413408C9B265F6332125E30A40628A /* DATAStack-umbrella.h */,
+				5BDEF7F90F04C714376E21CE86D78311 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/DATAStack";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
+				91C3608D65BD4C801EFF97184592D878 /* Pods */,
+				D37287D56654B0D4E7AD6B51E2B6E556 /* Products */,
+				A4E5A7F886B166432DFBE9347979F644 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		91C3608D65BD4C801EFF97184592D878 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FE69F18F88700758F13393AC435B2762 /* Backendless */,
+				BE2FF1A33C21070C736412665180ADED /* DATASource */,
+				DC21F1E81BD81C2C8E2DF4B5B453A192 /* DATAStack */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A4E5A7F886B166432DFBE9347979F644 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				65D7DA49C6375996EE98BC1A07C6E967 /* Pods-SyncCDwBkndlss */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BE2FF1A33C21070C736412665180ADED /* DATASource */ = {
+			isa = PBXGroup;
+			children = (
+				A6E4B811BBEA80C3F1AC65D871959A87 /* DATASource.h */,
+				AC81540ADA923B261C17DD5FB3C22748 /* DATASource.swift */,
+				9C785FFECC5733E01AFF57CD5234D02B /* DATASource+NSFetchedResultsControllerDelegate.swift */,
+				A900CE7D409B87F493F79D09237DBBEC /* DATASource+UICollectionViewDataSource.swift */,
+				5F6751629593C54C35631F38FB9E520A /* DATASource+UITableViewDataSource.swift */,
+				9BA5F00DFB6BA613B10849DCEBDE6E2D /* DATASourceCollectionHeaderView.swift */,
+				5DEED677CF82B8D0BBD72B8323A406DA /* DATASourceDelegate.swift */,
+				D62C6751980F804B65724C61E8F39CE7 /* Support Files */,
+			);
+			path = DATASource;
+			sourceTree = "<group>";
+		};
+		D37287D56654B0D4E7AD6B51E2B6E556 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				824D82AB47F553C4AAA465441F36968B /* DATASource.framework */,
+				FD57594902EA7707E3EF2A0EB6B515CD /* DATAStack.framework */,
+				FF301360DC9F81FA87D11D249183863B /* Pods_SyncCDwBkndlss.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D62C6751980F804B65724C61E8F39CE7 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0EEC90E27423F131FD33A13054BEE28F /* DATASource.modulemap */,
+				FE016D532DAD5F5C1CA30F38817EAF53 /* DATASource.xcconfig */,
+				5AF73BA4F2C22DDEF02758C72490D20F /* DATASource-dummy.m */,
+				453F7FCA9402B63B66E92349B5B79857 /* DATASource-prefix.pch */,
+				FF30F07F116BD429F93381741DE8897C /* DATASource-umbrella.h */,
+				740CF8E15E2EC49C8DD21F00F316E4C6 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/DATASource";
+			sourceTree = "<group>";
+		};
+		DC21F1E81BD81C2C8E2DF4B5B453A192 /* DATAStack */ = {
+			isa = PBXGroup;
+			children = (
+				944183FAEF6639D0E9D9FC575B937622 /* DATAStack.h */,
+				83CBDF6091427D9910B6EAD46CC8DF26 /* DATAStack.swift */,
+				154FB5D46FEC402A1371BF6F5C9035EF /* TestCheck.swift */,
+				741B64B593A478A928A24A6BF87C90DD /* Support Files */,
+			);
+			path = DATAStack;
+			sourceTree = "<group>";
+		};
+		F87A15DBD4FEE7980DA6A2F1ED3D7938 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				8BAC072F3EB5C52D961E62A2E88BADEC /* CoreData.framework */,
+				5CD4D643B730FFB028165AE73757FE71 /* Foundation.framework */,
+				719CEB65604DB1673C35C8807F94BDF9 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		FE69F18F88700758F13393AC435B2762 /* Backendless */ = {
+			isa = PBXGroup;
+			children = (
+				9EA1FC61A3CFAFBC19C58AC8C0C9ABDD /* AbstractProperty.h */,
+				DF1DE80EE80D44FE7DA119797F69E8A1 /* AbstractQuery.h */,
+				21F8A6E9AE25C544C0916546587C349F /* AMFSerializer.h */,
+				D0A27D7B3BE1D7663699A4A2A47DBC1C /* AtomicCounters.h */,
+				D5C0B1AE474C74A753C92928894256CA /* AtomicCountersFactory.h */,
+				B8A5B527C1E4D8FF5DC9AF5F67B19CA5 /* Backendless.h */,
+				C1661CCFD30F906BAF31C121DF59F1B9 /* Backendless-Bridging-Header.h */,
+				85C42BF55375D7105DFC4B091FC79D6A /* Backendless-With-Media-Bridging-Header.h */,
+				7D1211686CF0A44811A3DF3006DDE583 /* BackendlessBeacon.h */,
+				647C603DC04F9D5DFB874CBD3AF6DE04 /* BackendlessCachePolicy.h */,
+				F9F04397FB9A2A51F6DFC91B68AED97E /* BackendlessCacheProtocol.h */,
+				1FCB697E636D5080D6F70EEF4BCFB824 /* BackendlessCollection.h */,
+				32A4BBF2A69761CAA439118D65677253 /* BackendlessDataQuery.h */,
+				627F44BE1188F9677B74578E2559192E /* BackendlessEntity.h */,
+				EE7DC9F6196A89157628D028714FD345 /* BackendlessFile.h */,
+				F2CAE9B0D91848DB98C8F6F5B0D0C58B /* BackendlessGeoQuery.h */,
+				DB45B716436F0A574E004A9C46083ADF /* BackendlessSimpleQuery.h */,
+				42004EE2D08468D866066BEC36F1A208 /* BackendlessUser.h */,
+				A3CF824F123965FC7F1F956163A4E13A /* BEAnnotation.h */,
+				777741D9D206175BE94EC6807B860B8F /* BECollectionView.h */,
+				C5A506211FE21D14EEE94465B349D5A1 /* BEFileInfo.h */,
+				95E21D765FD9B5B1D483624C56C95762 /* BEMapView.h */,
+				5523FC05A72B830C33BB0948EA21B805 /* BESubscription.h */,
+				A99542D0B567791D159877E07B219526 /* BETableView.h */,
+				19BFEFDA4D9178373765C888AF09A629 /* BinaryCodec.h */,
+				5457A98EC9D5734A100B86FE4E9ABD4A /* BinaryStream.h */,
+				59E93C65C94F17209E13F9C8B514AECB /* BodyParts.h */,
+				51AA62AF71EAC04056E315CD76A4389D /* CacheFactory.h */,
+				CDE51723C1490E5693052C9BBDEA0F4D /* CacheService.h */,
+				539BE4F30ADE16D67B32ACD550448A8D /* CustomService.h */,
+				3D822C4DB630B0F659DA1E9DF4FBC059 /* DataPermission.h */,
+				425B101CACCF8D9A19067E456EC7FC96 /* DataStoreFactory.h */,
+				6FE9E746D6296BE6632C867037FB93AE /* DEBUG.h */,
+				F5B4A4BB113E6C956C2C5F974CD8F48A /* DeliveryOptions.h */,
+				0F0D23387A51DFF5E957B905B2CD019C /* DeviceRegistration.h */,
+				C8FF3571C6DD2B59E8258C42440F92AD /* Events.h */,
+				FA37922A4EC0AC175BE1ADDB33A0DB8D /* FilePermission.h */,
+				8D1A948D728AFC1314F03572C74532D5 /* FileService.h */,
+				2D0EEE0627A7B85C3981B0B3B8F2456B /* FlashorbBinaryReader.h */,
+				101A77232B3C4F0C55EE18B6FD4AF218 /* FlashorbBinaryWriter.h */,
+				4552ECFBC6ACAECB61066E6CEADC6082 /* GeoCategory.h */,
+				E748071264B9B0DF7EDD1F689828899B /* GeoCluster.h */,
+				7951F2E2772B29BFF6F1167E6A0C4A7A /* GeoFence.h */,
+				266DB694489515B4D08CD083922CB74C /* GeoPoint.h */,
+				690C81871BB2AEE9C01F7B859D98FDF3 /* GeoService.h */,
+				D9F826DAA1FA83E4AE5E333BF0F64D07 /* HashMap.h */,
+				96035B2BB9AFF23C3926CF0327B1815D /* IAtomicCounters.h */,
+				8D15C1ADC106DDD97F48131995C106BB /* IAttributeStore.h */,
+				73FF2C887115A8B6306BB956D1D16437 /* ICacheService.h */,
+				9B1EB4EBD7937F80043ACF4C62668DAC /* ICallback.h */,
+				2222BE2FA80A2E8B4A5CC359EF36203B /* IClientSharedObject.h */,
+				5969866C2EBF4AE1427861FF7DB08577 /* IClientSharedObjectDelegate.h */,
+				3FA1081911417CBC083B8B4A1529F2EF /* IDataStore.h */,
+				8B981816544A7BCF9C927FB1816908E5 /* IPendingServiceCallback.h */,
+				76108434E58BDF8011552833EAB78E4D /* IPersistable.h */,
+				1E86BAB21FEB1DFB948C5A78E2736D88 /* IPresenceListener.h */,
+				025C4C4EB4F1D4DA32A8114A4C417381 /* IRTMProtocol.h */,
+				B9343F5490BDB3155F5A470A6FE71289 /* IServiceCall.h */,
+				D5375B2552FD2606CD781C153F29A400 /* ISharedObjectListener.h */,
+				848BD62B3162D84EBFAC5BDE60414669 /* LocationTracker.h */,
+				A2CFEBE7A81C596B2A4F7EF720FA8B12 /* Logger.h */,
+				BA8BBFC21434AFD2CC2884729DCFCA6A /* Logging.h */,
+				05F126CA16A09828D0679775B79639B7 /* MemoryTicker.h */,
+				0AE7111C96089F6F9FBABB94DC8AD919 /* Message.h */,
+				3D571A8329D63E3F8991D73CA48E7D5D /* MessageStatus.h */,
+				4FD19DDFDBA24E7D4FF11ECD4169A2F8 /* MessagingService.h */,
+				660A561E87328B94A298C79D7A8A4BD9 /* ObjectProperty.h */,
+				0018889A09C76D3501D36BC9F2543820 /* PersistenceService.h */,
+				C15AEA2030C623706BD19E7B563536EA /* Presence.h */,
+				A4B82FA89C255506C497140DDEA04C9C /* ProtectedBackendlessGeoQuery.h */,
+				8131F8C63B2752AC59A09B86D681EE9F /* PublishOptions.h */,
+				8CCACB9CF0CA0583A05FCC49CA2764EF /* QueryOptions.h */,
+				F7819E47A9C3C1AE8736C15C82B90754 /* Responder.h */,
+				B1F1625EACD56988F56754494A2723D3 /* RTMPClient.h */,
+				92EFA1B8AF53D77674F475EB698D5839 /* SubscriptionOptions.h */,
+				3497AADDF2D1C501F9668C163CFF8B84 /* Types.h */,
+				444221FB66D56F85E8E7C3DCA619A6F0 /* UserProperty.h */,
+				3DE8AE6F3022B3F9617331B570ACB0B3 /* UserService.h */,
+				51F433C281980191307EC168F6F4DC29 /* WeborbClient.h */,
+			);
+			path = Backendless;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0291521FF14919F6641DEE2C5E066E8F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D116F1C315E170A126FB2514D2BFA80 /* DATASource-umbrella.h in Headers */,
+				D1B9CE2D86D2DEB3A60DC865313CB491 /* DATASource.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		801CE8087731FED90915E171D1DF880A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				490820275A8A272BDF3B9EBE7E829B4A /* Pods-SyncCDwBkndlss-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBD42E33461AB2428DCCB36967374102 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				964C6FD70B5BA1ACEC056E8F689AFF76 /* DATAStack-umbrella.h in Headers */,
+				98937CE8807F72EAEBC2C986C17F19B9 /* DATAStack.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		33B5B8E319DAC98B6B0A4E2E80A67C55 /* DATASource */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED2F64E90E6650A590473B8BE9C42668 /* Build configuration list for PBXNativeTarget "DATASource" */;
+			buildPhases = (
+				ED62E1A949E9C4574538A02B57EBD210 /* Sources */,
+				4DCC4B683A4775F1A934E9248A177937 /* Frameworks */,
+				0291521FF14919F6641DEE2C5E066E8F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DATASource;
+			productName = DATASource;
+			productReference = 824D82AB47F553C4AAA465441F36968B /* DATASource.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		64FD07392866D19D269B19A75E3B56D5 /* Pods-SyncCDwBkndlss */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFDB392CAAB996F147DCE08D7483D8F7 /* Build configuration list for PBXNativeTarget "Pods-SyncCDwBkndlss" */;
+			buildPhases = (
+				1C172173201A2365E2DE0EC2C85719A6 /* Sources */,
+				EDB7FF13D75F2AE98FE7AB0444E33857 /* Frameworks */,
+				801CE8087731FED90915E171D1DF880A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2E5E3B534551B5385A1E1B957AF23688 /* PBXTargetDependency */,
+				48710F5E895EE052EDD48B45163DF7A2 /* PBXTargetDependency */,
+			);
+			name = "Pods-SyncCDwBkndlss";
+			productName = "Pods-SyncCDwBkndlss";
+			productReference = FF301360DC9F81FA87D11D249183863B /* Pods_SyncCDwBkndlss.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		76967967EA49988882CA485460739467 /* DATAStack */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72D19AF458CA096F2518D8C4A69E28BD /* Build configuration list for PBXNativeTarget "DATAStack" */;
+			buildPhases = (
+				2ECAC99E892C93D3897AB6B07B5FBBF7 /* Sources */,
+				68D5164E7A24349F6A3FA13F74B700A5 /* Frameworks */,
+				BBD42E33461AB2428DCCB36967374102 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DATAStack;
+			productName = DATAStack;
+			productReference = FD57594902EA7707E3EF2A0EB6B515CD /* DATAStack.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = D37287D56654B0D4E7AD6B51E2B6E556 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				33B5B8E319DAC98B6B0A4E2E80A67C55 /* DATASource */,
+				76967967EA49988882CA485460739467 /* DATAStack */,
+				64FD07392866D19D269B19A75E3B56D5 /* Pods-SyncCDwBkndlss */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1C172173201A2365E2DE0EC2C85719A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0201EBF61F46532A4BED6CF0D630232C /* Pods-SyncCDwBkndlss-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2ECAC99E892C93D3897AB6B07B5FBBF7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BA2DA742AE1F1A325E11683D227565F /* DATAStack-dummy.m in Sources */,
+				4171762667553902C9B5943A883B77EE /* DATAStack.swift in Sources */,
+				24997E72D7C928C18B45BF88E1B512EA /* TestCheck.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED62E1A949E9C4574538A02B57EBD210 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED0A864E070F7E3DAE667DD5803674D2 /* DATASource+NSFetchedResultsControllerDelegate.swift in Sources */,
+				A09D6A0D905566E5E9647FC61FD890A2 /* DATASource+UICollectionViewDataSource.swift in Sources */,
+				52E31E6954A22FE5705E14C660104F8F /* DATASource+UITableViewDataSource.swift in Sources */,
+				5046C651F2087C5809DD5AACA688E603 /* DATASource-dummy.m in Sources */,
+				22DF4D7534C2C7A157A4556E6CD57AD2 /* DATASource.swift in Sources */,
+				0568BAB93B3B7011E1B3F0FDF957D090 /* DATASourceCollectionHeaderView.swift in Sources */,
+				FEA30546C1F3AB7CEA2C70181B4E44E0 /* DATASourceDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2E5E3B534551B5385A1E1B957AF23688 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DATASource;
+			target = 33B5B8E319DAC98B6B0A4E2E80A67C55 /* DATASource */;
+			targetProxy = CA15D021DB2A31E1B11216F1A6324787 /* PBXContainerItemProxy */;
+		};
+		48710F5E895EE052EDD48B45163DF7A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DATAStack;
+			target = 76967967EA49988882CA485460739467 /* DATAStack */;
+			targetProxy = 35729AB64B7537DABAB538E1775D9370 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2F81E5FE4CBC3DABA2F529252B8E5294 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 478C052722C0FDAD602429EE0C75FA92 /* DATAStack.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/DATAStack/DATAStack-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DATAStack/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DATAStack/DATAStack.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = DATAStack;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		32EAC2737554358B767209DBED2DCBA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5DF02EB49EF9B2D1178D16F6406D49AB /* Pods-SyncCDwBkndlss.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SyncCDwBkndlss/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SyncCDwBkndlss/Pods-SyncCDwBkndlss.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SyncCDwBkndlss;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3FA451D268613890FA8A5A03801E11D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4B361FBD3D993FDAD8A446CFE09A7108 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4B74C32E5B0A975D45F61D6EC3F0631 /* Pods-SyncCDwBkndlss.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SyncCDwBkndlss/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SyncCDwBkndlss/Pods-SyncCDwBkndlss.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SyncCDwBkndlss;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5E62115DE8C09934BF8D2FE5D15FED1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		67452D4C5CEFF1A9E3F5CDEA3AB8F227 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE016D532DAD5F5C1CA30F38817EAF53 /* DATASource.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/DATASource/DATASource-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DATASource/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DATASource/DATASource.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = DATASource;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9EB3AB1F87E33E5466A208F75E54FC19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 478C052722C0FDAD602429EE0C75FA92 /* DATAStack.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/DATAStack/DATAStack-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DATAStack/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DATAStack/DATAStack.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = DATAStack;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D23CAEA38CF1BA855ECAD16C54FEED9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE016D532DAD5F5C1CA30F38817EAF53 /* DATASource.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/DATASource/DATASource-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DATASource/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DATASource/DATASource.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = DATASource;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E62115DE8C09934BF8D2FE5D15FED1E /* Debug */,
+				3FA451D268613890FA8A5A03801E11D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		72D19AF458CA096F2518D8C4A69E28BD /* Build configuration list for PBXNativeTarget "DATAStack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F81E5FE4CBC3DABA2F529252B8E5294 /* Debug */,
+				9EB3AB1F87E33E5466A208F75E54FC19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFDB392CAAB996F147DCE08D7483D8F7 /* Build configuration list for PBXNativeTarget "Pods-SyncCDwBkndlss" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B361FBD3D993FDAD8A446CFE09A7108 /* Debug */,
+				32EAC2737554358B767209DBED2DCBA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED2F64E90E6650A590473B8BE9C42668 /* Build configuration list for PBXNativeTarget "DATASource" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67452D4C5CEFF1A9E3F5CDEA3AB8F227 /* Debug */,
+				D23CAEA38CF1BA855ECAD16C54FEED9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

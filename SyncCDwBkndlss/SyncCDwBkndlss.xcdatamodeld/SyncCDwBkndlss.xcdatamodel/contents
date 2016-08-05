@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="10171" systemVersion="15E65" minimumToolsVersion="Automatic">
+    <entity name="Todo" representedClassName=".Todo" syncable="YES">
+        <attribute name="completed" attributeType="Boolean" syncable="YES"/>
+        <attribute name="createdAt" attributeType="Date" syncable="YES"/>
+        <attribute name="objectId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="syncStatus" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="task" attributeType="String" syncable="YES"/>
+        <attribute name="updatedAt" attributeType="Date" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Todo" positionX="-63" positionY="-18" width="128" height="135"/>
+    </elements>
+</model>

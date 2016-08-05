@@ -1,0 +1,18 @@
+PODS:
+  - Backendless (3.0.26)
+  - DATASource (5.8.1)
+  - DATAStack (5.3.0)
+
+DEPENDENCIES:
+  - Backendless
+  - DATASource
+  - DATAStack
+
+SPEC CHECKSUMS:
+  Backendless: a312ce1d15fe37bedf2b26f0dd165d31ca8ec324
+  DATASource: 3c6e77db0f681049fc511616d7d6b1b638f0a7e4
+  DATAStack: fa488c2272116c00b3f4c115aa244d769997003d
+
+PODFILE CHECKSUM: cbedc806371ffb9caa39520ed43298120de64462
+
+COCOAPODS: 1.0.0

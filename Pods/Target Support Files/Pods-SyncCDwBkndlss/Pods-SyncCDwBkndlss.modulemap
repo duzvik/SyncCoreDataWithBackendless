@@ -1,0 +1,6 @@
+framework module Pods_SyncCDwBkndlss {
+  umbrella header "Pods-SyncCDwBkndlss-umbrella.h"
+
+  export *
+  module * { export * }
+}
